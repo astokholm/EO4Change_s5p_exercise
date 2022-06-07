@@ -44,7 +44,7 @@ SENTINELSAT_OPTIONS = {
     'username': 's5pguest',  # Default username for Sentinel-5P download, no need to sign-up.
     'password': 's5pguest',  # Default password for Sentinel-5P download, no need to sign-up.
     'data_dir': 's5p_data',  # Directory to download data to.
-    'download_index': [1, 2, 3, 4, 5],  # Must be > 1. Multiple indexes list will download multiple available files.
+    'download_index': [1, 2, 3],  # Must be > 1. Multiple indexes list will download multiple available files.
 }
 
 
