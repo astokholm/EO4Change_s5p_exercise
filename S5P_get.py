@@ -29,17 +29,18 @@ from sentinelsat import SentinelAPI, read_geojson, geojson_to_wkt
 # feel free to make a new one. :) This can be done at: https://geojson.io
 # It is recommended that you download multiple (2-5) of S5P files, as some of them may not contain measurements over the
 # area of interest. But be careful of your 30GB storage limit on the HPC! Each S5P file is ~500MB.
+# Remember to read the script thoroughly, the comments and try to understand what each line does.
 # The next exercise is in file s5p_display.py.
 
 
 SENTINELSAT_OPTIONS = {
-    'date': ['20210501', '20210530'],  # Start, End date, YYYYMMDD, the summer period is adviced.
+    'date': [, ],  # Start, End date, YYYYMMDD, must be string format. The summer period is adviced.
     'platformname': 'Sentinel-5 Precursor',  # Satellite platform name.
-    'producttype': 'L2__NO2___',  # Find other products @ link below:
+    'producttype': 'L2__',  # Find products @ link below:
      # https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-5p/products-algorithms
     'processinglevel': 'L2',  # Level of the product.
     'processingmode': 'Offline',  # Processing mode, i.e. Offline, NRT.
-    'footprint_file': 'dk_square.geojson', # name of geojson file. Inset filename or make your own https://geojson.io
+    'footprint_file': '', # name of geojson file. Inset filename from directory or make your own https://geojson.io
     'username': 's5pguest',  # Default username for Sentinel-5P download, no need to sign-up.
     'password': 's5pguest',  # Default password for Sentinel-5P download, no need to sign-up.
     'data_dir': 's5p_data',  # Directory to download data to.

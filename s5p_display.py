@@ -28,7 +28,7 @@ from s5p_get import SENTINELSAT_OPTIONS
 # -- Read here -- #
 # In this part of the exercise, you can display one of the downloaded files on a world map. Depending on what product
 # you have downloaded, the product name will vary. To find out the desired product name, look up the
-# Product User Manual (PUM)
+# Product User Manual (PUM) 
 # https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-5p/products-algorithms
 # Again, you may have to try different files as some may be empty (despite the large file size).
 # Fill out the file and the product name and run. Optionally, you can add units to your colorbar or change the extent
