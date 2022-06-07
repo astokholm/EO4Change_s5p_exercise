@@ -34,6 +34,7 @@ from s5p_get import SENTINELSAT_OPTIONS
 # Make sure to read the comments. :)
 # You can find documentation on HARP @ https://stcorp.github.io/harp/doc/html/index.html
 # Remember to send me your images. :) stokholm@space.dtu.dk
+# Look at your plot, what do we see?
 
 
 def harp_process(filename: str, harp_product_name: str, qa_validity, data_dir: str, grid: tuple,
